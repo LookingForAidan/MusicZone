@@ -1,0 +1,611 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="music">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="genre" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element type="xs:string" name="type" minOccurs="0"/>
+              <xs:element name="artist">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="tdcc" minOccurs="0"/>
+                    <xs:element name="albums" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="album1">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="name"/>
+                                <xs:element type="xs:short" name="year"/>
+                                <xs:element name="tracks">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="t1"/>
+                                      <xs:element type="xs:string" name="t2"/>
+                                      <xs:element type="xs:string" name="t3"/>
+                                      <xs:element type="xs:string" name="t4"/>
+                                      <xs:element type="xs:string" name="t5"/>
+                                      <xs:element type="xs:string" name="t6"/>
+                                      <xs:element type="xs:string" name="t7"/>
+                                      <xs:element type="xs:string" name="t8"/>
+                                      <xs:element type="xs:string" name="t9"/>
+                                      <xs:element type="xs:string" name="t10"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="producer"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="album2">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="name"/>
+                                <xs:element type="xs:short" name="year"/>
+                                <xs:element name="tracks">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="t1"/>
+                                      <xs:element type="xs:string" name="t2"/>
+                                      <xs:element type="xs:string" name="t3"/>
+                                      <xs:element type="xs:string" name="t4"/>
+                                      <xs:element type="xs:string" name="t5"/>
+                                      <xs:element type="xs:string" name="t6"/>
+                                      <xs:element type="xs:string" name="t7"/>
+                                      <xs:element type="xs:string" name="t8"/>
+                                      <xs:element type="xs:string" name="t9"/>
+                                      <xs:element type="xs:string" name="t10"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:string" name="producer"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="members" minOccurs="0"/>
+                    <xs:element name="kooks" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                            <xs:element type="xs:string" name="t11"/>
+                                            <xs:element type="xs:string" name="t12"/>
+                                            <xs:element type="xs:string" name="t13"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                            <xs:element type="xs:string" name="t11"/>
+                                            <xs:element type="xs:string" name="t12"/>
+                                            <xs:element type="xs:string" name="t13"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="twy" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ed" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="oned" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="tdr" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:byte" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ff" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="mas" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="omam" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="nir" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="band"/>
+                          <xs:element name="albums">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="album1">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="album2">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="name"/>
+                                      <xs:element type="xs:short" name="year"/>
+                                      <xs:element name="tracks">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:string" name="t1"/>
+                                            <xs:element type="xs:string" name="t2"/>
+                                            <xs:element type="xs:string" name="t3"/>
+                                            <xs:element type="xs:string" name="t4"/>
+                                            <xs:element type="xs:string" name="t5"/>
+                                            <xs:element type="xs:string" name="t6"/>
+                                            <xs:element type="xs:string" name="t7"/>
+                                            <xs:element type="xs:string" name="t8"/>
+                                            <xs:element type="xs:string" name="t9"/>
+                                            <xs:element type="xs:string" name="t10"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element type="xs:string" name="producer"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element type="xs:string" name="members"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

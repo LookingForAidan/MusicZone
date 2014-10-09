@@ -1,0 +1,64 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Zone!</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+
+    <center>
+
+
+
+
+
+
+
+        <img src="1313098342_music-zone-logo-light.jpg" alt="musiczone" width="690px" hight="290px">
+
+        <h1>Welcome to MusicZone!</h1>
+        <h2>A page developed by Kellie Hughes and Aidan Durnin</h2>
+        <h3>x12388761 and x12388721</h3>
+        The username is "user" and the password is "1234".
+        <br/>
+        <br/>
+
+        <form name="login">
+            Username: <input type="text" name="userid"/>
+            <br/>
+            Password: <input type="password" name="pswrd"/>
+            <br/>
+            <input type="button" onclick="check(this.form)" value="Login & Continue"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+
+
+        <script language="javascript">
+                function check(form)/*function to check userid & password*/
+                {
+                    /*the following code checkes whether the entered userid and password are matching*/
+                    if (form.userid.value == "user" && form.pswrd.value == "1234")
+                    {
+                        alert("You have successfully been logged in!\n\
+                                \n\
+                                Enjoy the site!");
+                        location = "StartPage";
+                    }
+                    else
+                    {
+                        alert("Error Password or Username")/*displays error message*/
+                    }
+                }
+        </script>
+
+
+
+
+    </center>
+
+</body>
+</html>
